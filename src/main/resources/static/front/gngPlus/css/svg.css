@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500&family=Pacifico&display=swap");
+img{
+	z-index:10;
+}
+.svgWrap{
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:-1;
+}
+.content01 {
+  padding-top:300px;
+  background-color: transparent;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.path {
+  fill: none;
+  stroke: rgba(0,0,0,0.2);
+  stroke-width: 5px;
+  position:absolute;
+}
+
+.path1 {
+  stroke-dasharray: 6884;
+  animation: drawPath1 1s linear, floating 2.2s linear infinite;
+}
+
+.content02 {
+  background-color: transparent;
+}
+
+.content03 {
+  background-color: transparent;
+}
+
+.path2 {
+  stroke: rgba(0,0,0,0.2);
+}
+
+.content03 {
+  background-color: transparent;
+}
+
+.content04 {
+  background-color: transparent;
+}
+
+
+@keyframes drawPath1 {
+  0% {
+    stroke-dashoffset: 6884;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes floating {
+  50% {
+    transform: translate3d(0, 40px, 0);
+  }
+}

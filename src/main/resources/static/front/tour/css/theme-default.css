@@ -4113,8 +4113,47 @@ div.demo .title span {
 	right: 20px;
 	display: none;
 	text-indent: -9999px;
-	background: #fccb06 url(../images/scroll-top-arrow.png) no-repeat 15px 16px;
+	background-color: gray;
 	z-index: 999;
+	box-shadow:0px 5px 5px rgba(0,0,0,0.4);
+}
+
+.cacao {
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	position: fixed;
+	bottom: 122px;
+	right: 20px;
+	background-color: gray;
+	z-index: 999;
+	color:white;
+	box-shadow:0px 5px 5px rgba(0,0,0,0.4);
+}
+
+.tel {
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	position: fixed;
+	bottom: 72px;
+	right: 20px;
+	background-color: green;
+	z-index: 999;
+	color:white;
+	vertical-align:middle;
+	box-shadow:0px 5px 5px rgba(0,0,0,0.4);
+	
+}
+
+.cacao i, .tel i{
+	font-size:25px;
+	line-height:25px;
+	display:inline-block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
 }
 
 /*============ google maps ============ */
