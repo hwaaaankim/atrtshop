@@ -17,8 +17,7 @@ img{
 
 .path {
   fill: none;
-  stroke: rgba(0,0,0,0.2);
-  stroke-width: 5px;
+  stroke: rgba(64,147,191,0.2);
   position:absolute;
 }
 
@@ -33,10 +32,6 @@ img{
 
 .content03 {
   background-color: transparent;
-}
-
-.path2 {
-  stroke: rgba(0,0,0,0.2);
 }
 
 .content03 {
